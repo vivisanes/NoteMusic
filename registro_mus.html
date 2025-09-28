@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Música</title>
+    <link rel="stylesheet" href="registro_mus_styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Música</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome da Música:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="album">Álbum:</label>
+                <input type="text" id="album" name="album" required>
+            </div>
+            <div class="form-group">
+                <label for="artista">Artista:</label>
+                <input type="text" id="artista" name="artista" required>
+            </div>
+            <div class="form-group">
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero" required>
+                    <option value="" disabled selected>Escolha um gênero</option>
+                    <option value="rock">Rock</option>
+                    <option value="pop">Pop</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="sertanejo">Sertanejo</option>
+                    <option value="hip-hop">Hip-Hop</option>
+                    <option value="eletronica">Eletrônica</option>
+                    <option value="pagode">Pagode</option>
+                    <option value="samba">Samba</option>
+                    <option value="kpop">Kpop</option>
+                    <option value="infantil">Infantil</option>
+                </select>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
